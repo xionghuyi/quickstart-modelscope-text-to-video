@@ -15,14 +15,14 @@ Text to Video基于社区开源版本部署，参考源码[HuggingFace Model Car
 - 若您使用个人账号，可以直接创建服务实例
 - 若您使用RAM用户创建服务实例，且是第一次使用阿里云计算巢
    - 需要在创建服务实例前，对使用的RAM用户的账号添加相应资源的权限。添加RAM权限的详细操作，请参见[为RAM用户授权](https://help.aliyun.com/document_detail/121945.html)。所需权限如下表所示。
-   - 且需要授权创建关联角色，参考下图，选中 **同意授权并创建关联角色**
-| 权限策略名称 | 备注 |
-| --- | --- |
-| AliyunECSFullAccess | 管理云服务器服务（ECS）的权限 |
-| AliyunVPCFullAccess | 管理专有网络（VPC）的权限 |
-| AliyunROSFullAccess | 管理资源编排服务（ROS）的权限 |
-| AliyunComputeNestUserFullAccess | 管理计算巢服务（ComputeNest）的用户侧权限 |
+   - 且需要授权创建关联角色，参考下图，选中同意授权并创建关联角色
 
+| 权限策略名称|	备注 |
+| --- | --- |
+|AliyunECSFullAccess |	管理云服务器服务（ECS）的权限 |
+| AliyunVPCFullAccess| 	管理专有网络（VPC）的权限|
+| AliyunROSFullAccess| 	管理资源编排服务（ROS）的权限| 
+|AliyunComputeNestUserFullAccess|	管理计算巢服务（ComputeNest）的用户侧权限|
 ![1.png](1.png)
 
 ## 1.部署入口
@@ -65,16 +65,19 @@ Text to Video基于社区开源版本部署，参考源码[HuggingFace Model Car
    - 选择已有的网络资源
 
 ![4.png](4.png)
+
 - 点击下一步，进入订单确认页面
 - 勾选“权限确认”和“服务条款”中的复选框
 - 点击“立即创建”
 
 ![5.png](5.png)
+
 ## 3.启动Text To Video服务
 
 - 在“服务实例管理”页面等待“部署状态”变为“已部署”。
 
 ![6.png](6.png)
+
 - 点击该服务实例可进入服务实例详情。
 - 点击Endpoint并输入创建服务时的用户名和密码登录软件页面。
 
