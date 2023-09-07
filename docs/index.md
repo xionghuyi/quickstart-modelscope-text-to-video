@@ -23,6 +23,7 @@ Text to Video基于社区开源版本部署，参考源码[HuggingFace Model Car
 | AliyunVPCFullAccess| 	管理专有网络（VPC）的权限|
 | AliyunROSFullAccess| 	管理资源编排服务（ROS）的权限| 
 |AliyunComputeNestUserFullAccess|	管理计算巢服务（ComputeNest）的用户侧权限|
+
 ![1.png](1.png)
 
 ## 1.部署入口
@@ -53,12 +54,14 @@ Text to Video基于社区开源版本部署，参考源码[HuggingFace Model Car
 - 选择地域，如下图中“华东1（杭州）”
 
 ![2.png](2.png)
+
 - 选择付费类型
 - 选择实例类型。
 - 配置实例密码
 - 配置软件登录用户名和密码
 
 ![3.png](3.png)
+
 - 选择可用区
 - 选择网络配置（下面两种情况二选一）
    - 新建VPC并填写网络配置
@@ -82,16 +85,20 @@ Text to Video基于社区开源版本部署，参考源码[HuggingFace Model Car
 - 点击Endpoint并输入创建服务时的用户名和密码登录软件页面。
 
 ![7.png](7.png)
+
 - 输入英文Prompt，点击Generate video即可根据输入的prompt生成视频。
 
 ![8.png](8.png)
+
 - 点击“Advanced options”设置更多参数。
    - Seed。选择不同的Seed将会生成不同的内容。
    - Number of frames。视频帧数。
    - Number of inference steps。推理步数，数值越高耗时越长，内容可能越好。
 
 ![9.png](9.png)
+
 - 点击Examples直接查看示例。
 
 ![10.png](10.png)
+
 最后，请尽情发挥你的想象力试玩吧。有任何想法或建议或者合作需求，请联系我们～～～
