@@ -3,6 +3,8 @@
 # 实例说明
 Text to Video基于社区开源版本部署，参考源码[HuggingFace Model Card](https://huggingface.co/damo-vilab/modelscope-damo-text-to-video-synthesis)。实例规格套餐如下：
 
+
+
 | 规格族 | vCPU与内存 | 系统盘 |
 | --- | --- | --- |
 | ecs.gn6i-c8g1.2xlarge | T4 GPU 计算型，8vCPU 31GiB，16G GPU RAM | ESSD云盘 200GiB PL0 |
